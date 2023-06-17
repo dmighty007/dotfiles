@@ -5,14 +5,12 @@
   ## Installation   
      
   - In the ```about:config``` page on your Firefox browser, set the following parameters to **True** :
-  │ - ```toolkit.legacyUserProfileCustomizations.stylesheets```
-  - Replace the **chrome** folder with the one from this repository. You can find the **chrome** folde
-  r here :
-  │ - On Linux : ```$HOME/.mozilla/firefox/######.default-release/chrome/```
-  │ - On Windows : ```%appdata%\Mozilla\Firefox\Profiles\######.default-release\chrome\```
-  │ - On MacOS : ```Users/[USERNAME]/Library/Application Support/Firefox/Profiles/######.default-relea
-  se/chrome```
-  │ - If it doesn't exist already, create a folder called chrome
+  - ```toolkit.legacyUserProfileCustomizations.stylesheets```
+  - Replace the **chrome** folder with the one from this repository. You can find the **chrome** folder here :
+  - On Linux : ```$HOME/.mozilla/firefox/######.default-release/chrome/```
+  - On Windows : ```%appdata%\Mozilla\Firefox\Profiles\######.default-release\chrome\```
+  - On MacOS : ```Users/[USERNAME]/Library/Application Support/Firefox/Profiles/######.default-release/chrome```
+  - If it doesn't exist already, create a folder called chrome
 
 
 Install [Tree Style Tab](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/)
