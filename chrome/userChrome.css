@@ -1,0 +1,80 @@
+#TabsToolbar { visibility: collapse !important; }
+#main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #TabsToolbar > .toolbar-items {
+  opacity: 0;
+  pointer-events: none;
+}
+#main-window:not([tabsintitlebar="true"]) #TabsToolbar {
+    visibility: collapse !important;
+}
+#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] #sidebar-header {
+  display: none;
+}
+.tab {
+  margin-left: 1px;
+  margin-right: 1px;
+ }
+/* Sidebar min and max width removal */
+/*#sidebar {
+  max-width: none !important;
+  min-width: 0px !important;
+}*/
+
+/* Hide splitter, when using Tree Style Tab. 
+#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] + #sidebar-splitter {
+  display: none !important;
+}
+*/
+/* Hide sidebar header, when using Tree Style Tab. */
+#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] #sidebar-header {
+  visibility: collapse;
+}
+/* Shrink sidebar until hovered, when using Tree Style Tab. */
+:root {
+  --tab-highlighter: transparent;
+}
+
+#tabbar {
+  background: #eee;
+  border: none;
+}
+
+tab-item-substance {
+  padding: 6px 5px 6px 10px;
+}
+
+tab-item {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  font-size: 12px;
+  background: #eee;
+}
+
+tab-item:hover {
+  background: #f6f6f6;
+}
+
+tab-item.active,
+tab-item.active:hover {
+  background: #dbdbdb;
+}
+
+tab-item tab-favicon {
+  margin-right: 5px;
+}
+
+tab-item tab-twisty {
+  display: none;
+}
+
+/* tab-item[data-level][data-level="1"], */
+tab-item[data-level][data-level="2"],
+tab-item[data-level][data-level="3"],
+tab-item[data-level][data-level="4"],
+tab-item[data-level][data-level="5"],
+tab-item[data-level][data-level="6"] {
+  padding-left: 0px;
+}
+
+.newtab-button {
+  display: none;
+}
