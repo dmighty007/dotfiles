@@ -20,4 +20,6 @@ If you have installed Tree Style Tab, you tried the previous step, and you still
 in [Private Browsing](https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history) mode. If so, ensure that 
 Tree Style Tab is permitted to run in this mode by enabling the "Run in Private Windows" setting in Firefox's `about:addons` menu.
 ## Screenshots
-! [example 1] (assets/Screenshot_2023-06-22-16-57-42_1920x1080.png)
+![example 1](assets/Screenshot_2023-06-22-16-57-42_1920x1080.png)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white)
+     
