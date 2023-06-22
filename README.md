@@ -19,3 +19,5 @@ If you do, press F1 while in Firefox to show or hide your tabs.
 If you have installed Tree Style Tab, you tried the previous step, and you still can't see your tabs, check to see if you're running 
 in [Private Browsing](https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history) mode. If so, ensure that 
 Tree Style Tab is permitted to run in this mode by enabling the "Run in Private Windows" setting in Firefox's `about:addons` menu.
+## Screenshots
+![example 1] (assets/Screenshot_2023-06-22-16-57-42_1920x1080.png)
