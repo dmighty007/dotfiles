@@ -1,12 +1,21 @@
----@type MappingsTable
 local M = {}
 
-M.general = {
+M.dap = {
+  plugin = true,
   n = {
-    [";"] = { ":", "enter command mode", opts = { nowait = true } },
-  },
+    ["<leader>db"] = {"<cmd> DapToggleBreakpoint <CR>"}
+  }
 }
 
--- more keybinds!
+M.dap_python = {
+  plugin = true,
+  n = {
+    ["<leader>dpr"] = {
+      function()
+        require('dap-python').test_method()
+      end
+    }
+  }
+}
 
 return M
