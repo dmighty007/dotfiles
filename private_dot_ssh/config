@@ -1,0 +1,33 @@
+# HostkeyAlgorithms ssh-dss,ssh-rsa,rsa-sha2-512
+KexAlgorithms +diffie-hellman-group1-sha1
+PubkeyAcceptedKeyTypes +ssh-rsa
+ Host boson
+        HostName 172.16.2.75
+        User suman
+ 
+Host chs1
+        HostName 172.16.0.222
+        User chs1
+Host cray
+        HostName 172.16.0.222
+        User chs2
+Host cray2
+        HostName 172.16.0.229
+        User sc1
+Host skynet
+        HostName 172.16.38.164
+        User dibyendu
+Host snb
+        HostName 172.16.7.70
+        Port 5846
+        User suman
+Host solaris
+        HostName 172.16.0.141
+        User dibyendu
+    
+Host gluon
+        HostName 172.16.2.58
+        User suman
+Host baryon
+      HostName 172.16.2.57
+      User suman1
